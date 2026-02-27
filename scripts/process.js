@@ -44,6 +44,7 @@ async function processVideo(filePath) {
     console.log("🖼️ Generando placeholder AVIF...");
     await run(
       `ffmpeg -i "${filePath}" -vf "select=eq(n\\,0)" -vframes 1 "${outDir}/placeholder.avif"` 
+      // `ffmpeg -i "${filePath}" -ss 00:00:19 -vframes 1 "${outDir}/placeholder.avif"` 
     );
 
     // 6. Metadata JSON
