@@ -123,11 +123,16 @@ ehthumbs.db
 Thumbs.db
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# VSCode settings (keep settings.json but ignore other files)
+!.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/tasks.json
 
 # FFmpeg temporary files
 *.tmp

@@ -1,7 +1,7 @@
 import fs from "fs-extra";
 import { exec } from "child_process";
 import { promisify } from "util";
-import glob from "glob";
+import * as glob from "glob";
 
 const run = promisify(exec);
 
