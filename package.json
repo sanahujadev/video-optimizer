@@ -1,0 +1,12 @@
+{
+  "name": "video-optimizer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/process.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10"
+  }
+}
